@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/arquivo_textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="TextView"
+        android:textAllCaps="false"
+        android:textColor="#0D47A1"
+        android:textSize="20sp" />
+</LinearLayout>

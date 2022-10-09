@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ImageView
+    android:id="@+id/motoboy_logo"
+    android:layout_width="match_parent"
+    android:layout_height="167dp"
+    app:srcCompat="@drawable/real_time_location" />
+
+    <Button
+    android:id="@+id/ativarLocalizacao_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="ativarLocalizacao"
+    android:text="Localizar" />
+
+    <Button
+    android:id="@+id/salvar_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="salvar"
+    android:onClick="salvarLocalizacao"/>
+
+    <Button
+    android:id="@+id/acessarRegistro_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:onClick="acessarRegistro"
+    android:text="acessar registro" />
+
+</LinearLayout>
